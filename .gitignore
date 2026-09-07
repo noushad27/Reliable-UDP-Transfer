@@ -1,0 +1,29 @@
+# Python bytecode & caching
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & transfer output
+logs/*.log
+!logs/.gitkeep
+received_files/*
+!received_files/.gitkeep
+
+# Benchmarks generated charts
+benchmarks/*.png
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.bak

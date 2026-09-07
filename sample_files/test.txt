@@ -1,0 +1,15 @@
+Custom Reliable UDP Transport Protocol Test File.
+This file is used to verify end-to-end file chunking, packet serialization, Stop-and-Wait ARQ,
+Sliding Window, Selective Repeat ARQ, and SHA-256 integrity verification over UDP.
+==============================================================================================
+Network Layer Characteristics:
+- Protocol: UDP
+- Port: 9000
+- Packet Header Size: 22 bytes
+- Payload Size: 1024 bytes
+- Error Detection: CRC32 (Packet), SHA-256 (File)
+==============================================================================================
+Transfer payload test pattern:
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+

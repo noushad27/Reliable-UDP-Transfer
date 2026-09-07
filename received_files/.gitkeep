@@ -1,0 +1,3 @@
+# Ignore received files during transfer tests
+*
+!.gitkeep
