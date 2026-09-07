@@ -577,12 +577,6 @@ SHA-256:         794ad715494d4ee38f8cf6226cb17f65113fa096df69062637bf3f8e56114eb
 
 ---
 
-## 29. Resume Bullets
-
-- **Engineered a high-performance reliable file transfer protocol from scratch in Python directly over raw UDP (`SOCK_DGRAM`)**, implementing Selective Repeat ARQ, out-of-order ring buffering, and dynamic RTO timeouts.
-- **Designed an exact 22-byte binary packet wire format with big-endian struct serialization**, incorporating per-packet CRC32 checksums and constant-memory streaming SHA-256 verification for tamper-evident data integrity.
-- **Architected an in-process network simulation layer and empirical benchmarking suite**, demonstrating a **7.5x throughput gain** over Stop-and-Wait across high-latency links and authoring a custom Wireshark Lua protocol dissector.
-
 ---
 
 ## 30. License
